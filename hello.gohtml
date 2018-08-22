@@ -1,0 +1,17 @@
+{{define "footer"}}
+<footer>
+<p>
+ copyright 
+ </p
+ <p>
+  contact information : <a href = "mailto:jon@calhoun.io">jon@calhoun.io</a>.
+  </p>
+  </footer>
+  {{end}}
+  {{range .Widgets}}
+  <div class="widget">
+  <h3 class="name">{{.Name}}</h3>
+  <span class="price">${{.Price}}</span>
+  </div>
+  {{end}}
+  {{template "footer"}}
