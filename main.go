@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"net/http"
 	"github.com/gorilla/mux"
+	"~/home/ritika/qci/go-practice/main1"
+
 )
 type Person struct {
 	id string `json:"id,omitempty"`
